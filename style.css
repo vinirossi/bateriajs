@@ -5,12 +5,15 @@
 }
 html {
     font-size: 10px;
+    
+  }
+  
+  header{
     background: url(https://bit.ly/2m2oGwk) bottom center;
     background-size: cover; /* ajusta a imagem o mais largamente possível e mantém sua proporção e não fica esticada */ 
     height: 100%;
     width: 100%;
   }
-  
   body,html {
     margin: 0;
     padding: 0;
@@ -69,3 +72,20 @@ html {
     letter-spacing: 1px; /* propriedade de espaçamento entre letras */
     color: #ff3d00;
   }
+
+  .rodape{
+    align-items: center;
+    background-color: blueviolet;
+    color: #fff;
+    display: flex;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;    
+    justify-content: center;
+    margin-bottom: 0%;
+    width: 100%;
+    height: 6.5rem;
+    position: absolute;
+    top:56rem;
+  }
+
